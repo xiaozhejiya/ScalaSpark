@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.3 (Oracle Corporation Java 1.8.0_241)
+[debug]       Load.loadUnit: plugins took 56.2873ms
+[debug]       Load.loadUnit: defsScala took 0.1471ms
+[debug] [Loading] Scanning directory C:\Users\30778\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\30778\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.1588 ms
+[debug]           Load.resolveProject(global-plugins) took 35.06ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\30778\.sbt\1.0\plugins, plugins: List(<none>))) took 62.2416ms
+[debug] [Loading] Done in C:\Users\30778\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 77.1243ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.249ms
+[debug]     Load.loadUnit(file:/C:/Users/30778/.sbt/1.0/plugins/, ...) took 138.5149ms
+[debug]   Load.apply: load took 345.3474ms
+[debug]   Load.apply: resolveProjects took 3.39ms
+[debug]   Load.apply: finalTransforms took 58.5435ms
+[debug]   Load.apply: config.delegates took 8.891ms
+[debug]   Load.apply: Def.make(settings)... took 6797.735ms
+[debug]   Load.apply: structureIndex took 116.9709ms
+[debug]   Load.apply: mkStreams took 1.4545ms
+[info] loading global plugins from C:\Users\30778\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8552.5825ms
+[debug]           Load.loadUnit: plugins took 15.1551ms
+[debug]           Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory E:\Spark_Core_main\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\Spark_Core_main\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1527 ms
+[debug]               Load.resolveProject(spark_core_main-build) took 1.1491ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark_core_main-build, base: E:\Spark_Core_main\project, plugins: List(<none>))) took 2.6148ms
+[debug] [Loading] Done in E:\Spark_Core_main\project, returning: (spark_core_main-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3.7211ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0087ms
+[debug]         Load.loadUnit(file:/E:/Spark_Core_main/project/, ...) took 19.3301ms
+[debug]       Load.apply: load took 20.3117ms
+[debug]       Load.apply: resolveProjects took 0.0772ms
+[debug]       Load.apply: finalTransforms took 10.5423ms
+[debug]       Load.apply: config.delegates took 1.1797ms
+[debug]       Load.apply: Def.make(settings)... took 90.361ms
+[debug]       Load.apply: structureIndex took 17.8263ms
+[debug]       Load.apply: mkStreams took 0.0023ms
+[info] loading project definition from E:\Spark_Core_main\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 11304.628ms
+[debug]     Load.loadUnit: defsScala took 0.0039ms
+[debug] [Loading] Scanning directory E:\Spark_Core_main
+[debug]       Load.loadUnit: mkEval took 5.2142ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\Spark_Core_main, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4152 ms
+[info] loading settings for project spark_core_main from build.sbt ...
+[debug]         Load.resolveProject(spark_core_main) took 2.5226ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark_core_main, base: E:\Spark_Core_main, plugins: List(<none>))) took 4.335ms
+[debug] [Loading] Done in E:\Spark_Core_main, returning: (spark_core_main)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1275.5106ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.5384ms
+[debug]   Load.loadUnit(file:/E:/Spark_Core_main/, ...) took 12603.2568ms
+[debug] Load.apply: load took 12604.1147ms
+[debug] Load.apply: resolveProjects took 0.0769ms
+[debug] Load.apply: finalTransforms took 3.4358ms
+[debug] Load.apply: config.delegates took 0.1716ms
+[debug] Load.apply: Def.make(settings)... took 69.2492ms
+[debug] Load.apply: structureIndex took 49.2825ms
+[debug] Load.apply: mkStreams took 0.0023ms
+[info] set current project to Spark.Partitioner (in build file:/E:/Spark_Core_main/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-cb78d90bead6482d1349
+[info] started sbt server

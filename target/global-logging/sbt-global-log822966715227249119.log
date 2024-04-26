@@ -1,0 +1,9 @@
+[debug] > Exec(show libraryDependencies, None, None)
+[debug] Evaluating tasks: libraryDependencies
+[info] * org.scala-lang:scala-library:2.12.11
+[info] * org.apache.spark:spark-core:3.2.0
+[info] * org.apache.spark:spark-sql:3.2.0
+[info] * org.apache.hbase:hbase-client:2.5.6
+[info] * org.apache.hbase:hbase-common:2.5.6
+[info] * org.apache.hadoop:hadoop-auth:3.3.1
+[debug] > Exec(idea-shell, None, None)

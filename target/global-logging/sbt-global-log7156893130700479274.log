@@ -1,0 +1,23 @@
+[debug] > Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/30778/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers, insertProjectTransitiveDependencies");apply -cp "C:/Users/30778/AppData/Roaming/JetBrains/IdeaIC2023.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2023.3.2/sbt-structure-extractor-2023.3.2.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure, Some(d993c94e-986e-4730-b569-2427c10fb49c), Some(CommandSource(console0)))
+[debug] > Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/30778/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers, insertProjectTransitiveDependencies"), None, Some(CommandSource(console0)))
+[info] Defining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.
+[info] The new values will be used by cleanKeepGlobs
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 	Global / sbtStructureOutputFile
+[debug] 	history
+[debug] 	shellPrompt
+[debug] 
+[debug] The new values will be used by 
+[debug] 	cleanKeepGlobs
+[info] Reapplying settings...
+[info] set current project to Spark.Partitioner (in build file:/E:/Spark_Core_main/)
+[debug] > Exec(apply -cp "C:/Users/30778/AppData/Roaming/JetBrains/IdeaIC2023.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2023.3.2/sbt-structure-extractor-2023.3.2.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))
+[info] Applying State transformations org.jetbrains.sbt.CreateTasks from C:/Users/30778/AppData/Roaming/JetBrains/IdeaIC2023.3/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.3/2023.3.2/sbt-structure-extractor-2023.3.2.jar
+[info] Reapplying settings...
+[info] set current project to Spark.Partitioner (in build file:/E:/Spark_Core_main/)
+[debug] > Exec(preferScala2, None, Some(CommandSource(console0)))
+[debug] > Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Global / dumpStructure
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
